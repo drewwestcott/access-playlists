@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A95689A1E92B46000D42CF7 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9568991E92B46000D42CF7 /* PlaylistCell.swift */; };
 		3ADBD0D81E91AD200092C8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBD0D71E91AD200092C8A1 /* AppDelegate.swift */; };
 		3ADBD0DA1E91AD200092C8A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBD0D91E91AD200092C8A1 /* ViewController.swift */; };
 		3ADBD0DD1E91AD200092C8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBD0DB1E91AD200092C8A1 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A9568991E92B46000D42CF7 /* PlaylistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
 		3ADBD0D41E91AD200092C8A1 /* access-playlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "access-playlist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADBD0D71E91AD200092C8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ADBD0D91E91AD200092C8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A9568981E92B2FB00D42CF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A9568991E92B46000D42CF7 /* PlaylistCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		3ADBD0CB1E91AD200092C8A1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		3ADBD0D61E91AD200092C8A1 /* access-playlist */ = {
 			isa = PBXGroup;
 			children = (
+				3A9568981E92B2FB00D42CF7 /* View */,
 				3ADBD0D71E91AD200092C8A1 /* AppDelegate.swift */,
 				3ADBD0D91E91AD200092C8A1 /* ViewController.swift */,
 				3ADBD0DB1E91AD200092C8A1 /* Main.storyboard */,
@@ -139,6 +150,7 @@
 			files = (
 				3ADBD0DA1E91AD200092C8A1 /* ViewController.swift in Sources */,
 				3ADBD0D81E91AD200092C8A1 /* AppDelegate.swift in Sources */,
+				3A95689A1E92B46000D42CF7 /* PlaylistCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				3ADBD0E81E91AD200092C8A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
